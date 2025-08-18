@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aula.course.entities.Category;
 import com.aula.course.entities.Product;
 import com.aula.course.services.ProductService;
 
