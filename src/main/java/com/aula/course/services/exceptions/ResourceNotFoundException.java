@@ -1,10 +1,10 @@
 package com.aula.course.services.exceptions;
 
-public class ResourceNotFounException extends RuntimeException {
+public class ResourceNotFoundException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 	
-	public ResourceNotFounException(Object id) {
+	public ResourceNotFoundException(Object id) {
 		super("Resource not found. Id " + id);
 	}
 
